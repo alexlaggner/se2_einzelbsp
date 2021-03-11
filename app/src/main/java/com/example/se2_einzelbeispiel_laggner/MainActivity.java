@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                     if (Indexlist.size() < 2) {
-                        serverRes.setText("Kein gemeinsamer Teiler vorhanden.");
+                        serverRes.setText("Kein gemeinsamer Teiler (>1) vorhanden.");
                     } else {
                         serverRes.setText("Mindestens 2 Ziffern mit gemeinsamen Teiler gefunden: \nIndex 1 = " + Indexlist.get(0) + "\nIndex 2 = " + Indexlist.get(1));
                     }
